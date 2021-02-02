@@ -32,7 +32,7 @@ class MainActivity : AppCompatActivity() {
         seekBar = findViewById(R.id.SEEKBAR)
         seekBar.setOnSeekBarChangeListener(object : SeekBar.OnSeekBarChangeListener{
             override fun onProgressChanged(seekBar: SeekBar?, progress: Int, fromUser: Boolean) {
-                timeToCountDownInMs = progress * 600L
+                timeToCountDownInMs = progress * 60000L
                 updateCountDownDisplay(timeToCountDownInMs)
 
             }
@@ -51,7 +51,7 @@ class MainActivity : AppCompatActivity() {
         seekBar = findViewById(R.id.SEEKBAR2)
         seekBar.setOnSeekBarChangeListener(object : SeekBar.OnSeekBarChangeListener{
             override fun onProgressChanged(seekBar: SeekBar?, progress: Int, fromUser: Boolean) {
-                timeToCountDownInMs2 = progress * 600L
+                timeToCountDownInMs2 = progress * 60000L
                 updateCountDownDisplay(timeToCountDownInMs2)
 
             }
