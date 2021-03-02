@@ -26,53 +26,44 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/countDownView" />
 
-    <Button
-        android:id="@+id/button30"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="30 min"
+    <SeekBar
+        android:id="@+id/SEEKBAR"
+        android:layout_width="140dp"
+        android:layout_height="25dp"
+        android:max="300"
+        android:min="15"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.209"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/countDownView"
-        app:layout_constraintVertical_bias="0.1" />
+        app:layout_constraintVertical_bias="0.276" />
 
-    <Button
-        android:id="@+id/button60"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="60 min"
+    <SeekBar
+        android:id="@+id/SEEKBAR2"
+        android:layout_width="140dp"
+        android:layout_height="25dp"
+        android:max="60"
+        android:min="0"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.209"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/countDownView"
-        app:layout_constraintVertical_bias="0.305" />
+        app:layout_constraintVertical_bias="0.152" />
 
-    <Button
-        android:id="@+id/button90"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="90 min"
+    <EditText
+        android:id="@+id/EDITTEXT"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:inputType="number"
+        android:text="@string/rep"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.786"
+        app:layout_constraintHorizontal_bias="0.081"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/countDownView"
-        app:layout_constraintVertical_bias="0.1" />
-
-    <Button
-        android:id="@+id/button120"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="120 min"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.786"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/countDownView"
-        app:layout_constraintVertical_bias="0.305" />
+        app:layout_constraintVertical_bias="0.092" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
