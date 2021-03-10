@@ -10,13 +10,13 @@
         android:id="@+id/halfToneKey"
         android:layout_width="30dp"
         android:layout_height="200dp"
+        android:layout_margin="15dp"
         android:backgroundTint="@color/black"
         android:background="@drawable/pianokeyshape"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintTop_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-
 
         />
 
