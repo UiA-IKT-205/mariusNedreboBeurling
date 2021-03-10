@@ -63,6 +63,7 @@ class PianoLayout : Fragment() {
             halfTonePianoKey.onKeyUp ={ note ->
                 var endPlay = System.nanoTime()
                 val note = Note(it,startPlay,endPlay)
+                score.add(note)
                 println("Piano key up $note")
             }
 
